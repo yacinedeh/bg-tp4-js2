@@ -1,0 +1,50 @@
+#table_container {
+    font-family: Calibri, Arial, sans-serif;
+    width: 80%;
+    margin: 30px auto;
+    background: white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+}
+
+#container_summary {
+    display: flex;
+    justify-content: space-between;
+    background: #f0f0f0;
+    color: #444;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+#container_summary p {
+    margin: 8px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #007bbd;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.col_number {
+    text-align: center;
+    width: 70px;
+}
+
+.col_text {
+    text-align: left;
+}
+
+.col_chkbox {
+    text-align: center;
+    width: 80px;
+}
